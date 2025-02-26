@@ -20,7 +20,7 @@
                 <tr>
                     <th>No</th>
                     <th>NIK</th>
-                    <th>Nama</th>
+                    <th>Nama Lengkap</th>
                     <th>Alamat</th>
                     <th>Aksi</th>
                 </tr>

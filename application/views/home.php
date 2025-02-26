@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h1 class="text-center">SELAMAT DATANG</h1>
-        <h3>Data Masyarakat</h3>
+        <h3>Data Masyarakat Sinjai</h3>
 
         <a href="<?php echo base_url('index.php/Welcome/formInput') ?>" class="btn btn-primary">Tambah Data</a>
         
@@ -31,12 +31,12 @@
                 ?>
                 <tr>
                     <td><?php echo $count ?></td>
-                    <td><?php echo $row->NIK ?></td>
+                    <td><?php echo $row->nik ?></td>
                     <td><?php echo $row->nama ?></td>
                     <td><?php echo $row->alamat ?></td>
                     <td>
-                        <a href="<?php echo base_url('index.php/Welcome/formEdit'). $row->NIK ?>" class="btn btn-warning btn-sm">Edit</a>
-                        <a href="#" class="btn btn-danger btn-sm">Hapus</a>
+                        <a href="<?php echo base_url('index.php/Welcome/formEdit/'). $row->nik ?>" class="btn btn-warning btn-sm">Edit</a>
+						<a href="<?php echo base_url('index.php/Welcome/aksiDelete/' . $row->nik); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')">Hapus</a>
                     </td>
                 </tr>
                 <?php } ?>

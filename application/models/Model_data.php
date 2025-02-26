@@ -28,4 +28,14 @@ class Model_data extends CI_Model {
 		$query = $this->db->get('input_data');
 		return $query->row();
 	}
+
+	public function updateData($nik, $data) {
+        $this->db->where('nik', $nik);
+        $this->db->update('input_data', $data); //ganti data_masyarakat dengan nama table anda
+    }
+	public function deleteData($nik) {
+        $this->db->where('nik', $nik);
+        $this->db->delete('input_data'); // Ganti 'data_masyarakat' dengan nama tabel Anda
+    }
+	
 }

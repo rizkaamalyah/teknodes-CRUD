@@ -14,7 +14,7 @@
             <div class="form-group">
                 <label for="nik">NIK</label>
                 <input type="text" value="<?php echo $data->nik ?>" class="form-control" id="nik" name="nik_display" disabled>
-                <input type="hidden" name="nik"> <!-- Menampung data -->
+                <input type="hidden" name="nik" value="<?php echo $data->nik; ?>"> <!-- Menampung data -->
             </div>
             <div class="form-group">
                 <label for="nama">Nama</label>

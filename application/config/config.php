@@ -23,7 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/teknodesa/';
+$config['base_url'] = 'http://localhost/teknodes-CRUD/';
+// $config['base_url'] = 'http://localhost/teknodesa-dinda/teknodes-CRUD/';
 
 /*
 |--------------------------------------------------------------------------

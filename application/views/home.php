@@ -8,9 +8,9 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="text-center">SELAMAT DATANG</h1>
+        <h1 class="text-center">SELAMAT DATANG Selamat Datang di Layanan Kependudukan TeknoDesa</h1>
 
-        <h3>Data Masyarakat Moncongloe</h3>
+        <h3>Data Masyarakat Desa</h3>
 
 
         <a href="<?php echo base_url('index.php/Welcome/formInput') ?>" class="btn btn-primary">Tambah Data</a>
